@@ -1,4 +1,4 @@
-var pass = "2084272";
+var pass = ${{ secrets.KEY_ }};
 
 function passcheck() {
 	
