@@ -1,0 +1,1 @@
+echo "My APP Value Id is ${{ vars.KEY_ }}
