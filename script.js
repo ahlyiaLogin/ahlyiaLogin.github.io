@@ -5,10 +5,10 @@ function passcheck() {
 	fr.onload=function(){
 	}
 	
-	if(document.getElementById('pass1').value == fr.readAsText("./NOTthepassword.txt")){
+	if(document.getElementById('pass1').value == pass){
 		window.location.href = "https://ahlyia.github.io";
 	}
-	if(document.getElementById('pass1').value != fr.readAsText("./NOTthepassword.txt"){
+	if(document.getElementById('pass1').value != pass){
 		alert("Incorrect");
 		return false;
 	}
