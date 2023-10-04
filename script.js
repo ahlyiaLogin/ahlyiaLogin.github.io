@@ -8,7 +8,7 @@ function passcheck() {
 	if(document.getElementById('pass1').value == fr.readAsText("./NOTthepassword.txt")){
 		window.location.href = "https://ahlyia.github.io";
 	}
-	if(document.getElementById('pass1').value != pass){
+	if(document.getElementById('pass1').value != fr.readAsText("./NOTthepassword.txt"){
 		alert("Incorrect");
 		return false;
 	}
